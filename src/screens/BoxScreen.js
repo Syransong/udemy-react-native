@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
     borderColor: "red",
     margin: 20,
     // flex: 4,
-    alignSelf: "center"
+    alignSelf: "center",
+    ...StyleSheet.absoluteFillObject
   },
   textThreeStyle: {
     borderWidth: 3,
