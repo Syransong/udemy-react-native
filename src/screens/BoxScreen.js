@@ -18,25 +18,26 @@ const styles = StyleSheet.create({
     // flexDirection: "row",
     height: 200,
     // alignItems: "center",
-    // justifyContent: "center"
+    // justifyContent: "center",
   },
   textOneStyle: {
     borderWidth: 3,
     borderColor: "red",
     margin: 20,
-    flex: 4
+    // flex: 4
   },
   textTwoStyle: {
     borderWidth: 3,
     borderColor: "red",
     margin: 20,
-    flex: 4
+    // flex: 4,
+    alignSelf: "center"
   },
   textThreeStyle: {
     borderWidth: 3,
     borderColor: "red",
     margin: 20,
-    flex: 2
+    // flex: 2
   }
 });
 
